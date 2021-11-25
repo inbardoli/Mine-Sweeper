@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+table {
+    height: 800px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border:rgb(37, 124, 37);
+    
+}
+
+td {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+td:hover{
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.timer {
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(188, 216, 193);
+    line-height: 70px;
+}
+
+.marks-left {
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(213, 191, 134);
+    line-height: 70px;
+}
+
+.hearts {
+    background-color: rgb(241, 240, 204);
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.smiley{
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(217, 247, 223);
+
+}
+
+.levels {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.levels button {
+    background-color: rgb(37, 124, 37);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+.levels button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+
+}
+
