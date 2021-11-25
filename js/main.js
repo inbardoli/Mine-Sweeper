@@ -199,6 +199,7 @@ function cellMarked(elCell) {
             gGame.markedCount++;
             gMarks--;
             showMarksLeft()
+            checkGameOver()
         }
     }
 }
@@ -244,6 +245,8 @@ function expandShown(board, a, b) {
 //Game ends when all mines are marked, and all the other cells are shown
 function checkGameOver() {
     if ((gGame.showCount + gGame.markedCount) === gLevel.TOTALCELLS) {
+        console.log('showCount', gGame.showCount)
+        console.log('markedCount', gGame.markedCount)
         renderSmiley(WIN)
         console.log('You WIN!')
         gameOver()
